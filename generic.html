@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Joanne Guandaru Portfolio Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Joanne Guandaru Portfolio Projects</strong> <span></span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Project 1</a></li>
+							<li><a href="generic copy.html">Project 2</a></li>
+							<li><a href="generic copy 2.html">Project 3</a></li>
+							<li><a href="generic copy 3.html">Project 4</a></li>
+							
+							
+						</ul>
+						<ul class="actions stacked">
+		
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>COVID-19 Project Overview</h1>
+									</header>
+									<span class="image main"><img src="images/Covid.jpg" alt="" /></span>
+									<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Project Overview</title>
+</head>
+<body>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>COVID-19 Project Overview</title>
+	</head>
+	<body>
+	
+		<h2>COVID-19 Project</h2>
+		<p>This project aimed to analyze COVID-19 data, focusing on key aspects such as infection rates, death percentages, and vaccination coverage across different countries and continents. The analysis explored various dimensions of the pandemic, including the relationship between total cases and deaths, infection rates relative to population, and trends in vaccination rollouts. The project also examined ICU admissions, hospitalization, and positivity rates to understand the healthcare strain caused by the virus.</p>
+	
+		<p>This analysis was carried out using real-world COVID-19 data from publicly available databases (OWID), with the primary focus on:</p>
+		<ul>
+			<li>Examining trends in confirmed infected cases; identifying highest/lowest infected regions and comparing it per population</li>
+			<li>Examining the trends in death rates due to COVID-19; identifying highest/lowest deaths in regions and comparing it per population</li>
+			<li>Analyzing vaccination distribution and its impact on lowering infection rates</li>
+			<li>Analyzing trends in hospitalization and impact based on previous health conditions</li>
+			<li>Providing insights into healthcare resource management during the pandemic</li>
+		</ul>
+	
+		<p>The dataset consisted of daily updates on COVID-19 infections, deaths, and vaccinations, structured into two tables: <strong>covid_deaths</strong> and <strong>covid_vaccinations</strong>.</p>
+	
+		<h2>Dataset Structure</h2>
+		<p>The dataset was organized into the following tables:</p>
+		<ul>
+			<li><strong>covid_deaths</strong>: Contains information on daily COVID-19 deaths and infection rates by country and region.</li>
+			<li><strong>covid_vaccinations</strong>: Contains records of vaccination efforts, including the number of doses administered and the percentage of the population vaccinated.</li>
+		</ul>
+	
+		<p>Each table included columns for:</p>
+		<ul>
+			<li><strong>Country/Region/Continent</strong>: The location where data was recorded.</li>
+			<li><strong>Date</strong>: The date of the recorded data.</li>
+			<li><strong>Confirmed Cases</strong>: The total number of confirmed COVID-19 cases on that date.</li>
+			<li><strong>Deaths</strong>: The total number of deaths caused by COVID-19.</li>
+			<li><strong>Vaccination Doses</strong>: The number of vaccine doses administered on that date.</li>
+			<li><strong>Vaccination Rate</strong>: The percentage of the population vaccinated.</li>
+			<li><strong>Infection Rates</strong>: Number of positive cases and their status on whether hospitalized or in ICU.</li>
+			<li><strong>Deaths related to various factors</strong>: Factors such as prior Cardiovascular issues.</li>
+		</ul>
+	
+		<h2>Techniques Used</h2>
+		<ul>
+			<li><strong>Joins</strong>: To combine COVID-19 cases and vaccination data.</li>
+			<li><strong>Aggregate Functions</strong>: For calculating totals, averages, and percentages, such as infection rates and death percentages.</li>
+			<li><strong>Common Table Expressions (CTEs)</strong>: Used for breaking down complex queries, like calculating positivity rates and ICU admissions.</li>
+			<li><strong>Window Functions</strong>: Implemented to analyze rolling vaccination numbers and calculate the percentage of vaccinated populations.</li>
+			<li><strong>Views</strong>: Created for recurring queries, such as tracking vaccination progress.</li>
+			<li><strong>Data Cleaning</strong>: Adjustments were made to ensure data accuracy, such as handling invalid dates and missing information.</li>
+		</ul>
+	
+		<h2>Insights Summary</h2>
+	
+		<h3>Deaths (Highest/Lowest Death Rates by Country and Continent)</h3>
+	
+		<h4>Highest Death Rates by Country:</h4>
+		<ul>
+			<li>South America saw some of the highest death rates, especially in countries like Brazil, which had a significant death toll due to the high infection rate and overwhelmed healthcare systems. Brazil experienced a mortality rate of about 2.8% during peak pandemic waves.</li>
+			<li>Europe also saw severe death tolls, with countries like Italy and UK having high cumulative deaths. The UK reported a death rate close to 1.8%.</li>
+			<li>Egypt, an African country, had a higher death rate of around 5%, reflecting its healthcare challenges and late vaccination efforts.</li>
+		</ul>
+	
+		<h4>Lowest Death Rates by Country:</h4>
+		<ul>
+			<li>Vanuatu in Oceania had one of the lowest global death rates at 0.12%, consistent with its isolated geography and effective early lockdowns.</li>
+			<li>African countries such as Gabon reported low death rates of around 0.7%, and Zambia maintained a low mortality rate of 1.2%.</li>
+			<li>Kenya's death rate stood at approximately 2.1%.</li>
+		</ul>
+	
+		<h3>Continental Insights:</h3>
+		<ul>
+			<li>Africa consistently had lower death rates than most other continents, with some exceptions like Egypt due to healthcare challenges and delayed interventions.</li>
+			<li>Europe and South America had some of the highest cumulative death counts and death rates. South America in particular faced severe impacts, driven by the high infection rates and healthcare system strain in countries like Brazil.</li>
+			<li>Oceania recorded the lowest death toll globally due to smaller populations and stricter border control measures.</li>
+		</ul>
+	
+		<h3>Likelihood of Death (By Country)</h3>
+	
+		<h4>Highest Likelihood of Death:</h4>
+		<ul>
+			<li>Egypt had a significant likelihood of death at 5%, one of the highest globally, likely due to limited medical infrastructure and fewer resources for advanced care.</li>
+			<li>Afghanistan also had a relatively high death likelihood of 4.6%, compounded by its war-torn status and severely underfunded healthcare system.</li>
+		</ul>
+	
+		<h4>Median and Lower Likelihood of Death:</h4>
+		<ul>
+			<li>Kenya recorded a death likelihood of 2.1%, indicating that it fared better than many other countries with similar infection rates, thanks to early government interventions and public health campaigns.</li>
+			<li>Canada’s likelihood of death stood at 1.6%, reflecting the country’s effective healthcare response despite waves of infections.</li>
+		</ul>
+	
+		<h3>Regional Insights:</h3>
+		<ul>
+			<li>Many countries in Europe, such as Slovakia (with a death likelihood of 3.1%), experienced higher death likelihoods due to overwhelmed hospitals and aging populations.</li>
+			<li>In contrast, countries like Gabon and Zambia in Africa saw much lower death rates and likelihoods of death, driven by proactive measures and younger populations.</li>
+		</ul>
+	
+		<h3>Highest Death Count by Continent</h3>
+	
+		<h4>Most Affected Continents:</h4>
+		<ul>
+			<li>South America recorded some of the highest death counts due to high infection rates in countries like Brazil and Peru. Brazil alone had over 600,000 deaths, making it one of the worst-hit countries globally.</li>
+			<li>Europe, particularly Italy and the UK, reported similarly high death counts, with the UK surpassing 150,000 deaths during the pandemic.</li>
+		</ul>
+	
+		<h4>Least Affected Continents:</h4>
+		<ul>
+			<li>Africa had one of the lowest cumulative death counts, although reporting issues may have skewed data in some regions. Zambia and Gabon recorded relatively low death tolls compared to global figures.</li>
+			<li>Oceania maintained the lowest death counts due to its strong isolation strategies and small population size.</li>
+		</ul>
+	
+		<h3>Global Numbers:</h3>
+		<p><strong>Total Global Deaths:</strong> The global COVID-19 death rate is estimated at 1.1%, with approximately 6.96 million confirmed deaths globally as of 2024. This represents around 1.1% of the total infected population worldwide.</p>
+	
+		<h3>Weekly Admissions (By Country and Continent)</h3>
+	
+		<h4>Countries and Continents with the Highest Weekly Admissions:</h4>
+		<ul>
+			<li>South America (particularly Brazil) and Europe (Italy, France, and Germany) consistently reported high hospital admissions. These countries faced overwhelming waves that filled hospitals and ICUs rapidly.</li>
+		</ul>
+	
+		<h4>ICU Admissions:</h4>
+		<ul>
+			<li>Europe and North America saw the highest ICU admissions, driven by high infection rates and advanced medical facilities capable of handling severe cases. Countries like Italy had high ICU admission rates.</li>
+			<li>On the lower end, Africa reported fewer ICU admissions. However, this was not necessarily due to lower severity but rather limited ICU capacity.</li>
+		</ul>
+	
+		<h3>Rolling Vaccinations (By Country and Continent)</h3>
+	
+		<h4>Highest Vaccination Rates:</h4>
+		<ul>
+			<li>North America reached 80-90% vaccination rates in many regions, achieving high immunization coverage.</li>
+		</ul>
+	
+		<h4>Median Vaccination Rates:</h4>
+		<ul>
+			<li>Europe, with countries like Germany and France, reached around 70% vaccinated population, leading to reduced infection rates in later waves.</li>
+		</ul>
+	
+		<h4>Lowest Vaccination Rates:</h4>
+		<ul>
+			<li>Africa reported low vaccination rates, averaging around 30% vaccinated population. Kenya, for example, achieved only around 15% vaccination coverage.</li>
+		</ul>
+	
+		<h3>Cardiovascular-Related Deaths</h3>
+	
+		<h4>Highest Rates of Cardiovascular-Related Deaths:</h4>
+		<ul>
+			<li>Europe reported some of the highest cardiovascular-related deaths due to COVID-19, with Italy and Spain notably affected.</li>
+		</ul>
+	
+		<h4>Lowest Rates of Cardiovascular-Related Deaths:</h4>
+		<ul>
+			<li>Countries in Africa, such as Kenya, reported lower rates of cardiovascular-related deaths, largely due to a younger population and fewer pre-existing cardiovascular issues.</li>
+		</ul>
+	
+		<h2>Recommendations</h2>
+		<ul>
+			<li><strong>Increase Global Vaccine Distribution</strong>: Vaccination efforts need to be increased, especially in underdeveloped regions, as vaccines have proven effective in reducing both infection and death rates.</li>
+			<li><strong>Improve Healthcare Infrastructure</strong>: Strengthening healthcare systems, particularly in low-income countries, could help mitigate the impact of future pandemics.</li>
+			<li><strong>Implement Early Intervention and Lockdowns</strong>: Countries that imposed lockdowns early in the pandemic had better control over infection rates, reducing the healthcare burden.</li>
+			<li><strong>Use Data-Driven Decision Making</strong>: Real-time data should inform public health measures and resource allocation to ensure timely interventions and adequate healthcare response.</li>
+		</ul>
+	
+	</body>
+	</html>
+	
+    
+
+									
+										
+									<p>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Button Link to GitHub or Tableau Public -->
+<div class="link-wrapper">
+    <a href="https://github.com/JoanneGuandaru/Covid-19-Data-Exploration/blob/main/CovidProject.sql" target="_blank" class="button">View on GitHub</a>
+			
+</div>
+					</section>
+
+					
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								
+								
+								<li><a href="https://github.com/JoanneGuandaru" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/joanne-guandaru-366188141/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy;</li><li> <a href="https://html5up.net"></a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

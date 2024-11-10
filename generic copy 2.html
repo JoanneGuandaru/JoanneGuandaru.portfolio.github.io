@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Joanne Guandaru Portfolio Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Joanne Guandaru Portfolio Projects</strong> <span></span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Project 1</a></li>
+							<li><a href="generic copy.html">Project 2</a></li>
+							<li><a href="generic copy 2.html">Project 3</a></li>
+							<li><a href="generic copy 3.html">Project 4</a></li>
+							
+							
+							
+						</ul>
+						<ul class="actions stacked">
+							
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Seattle Airbnb Project Overview</h1>
+									</header>
+									<span class="image main"><img src="images/Seattle airbnb.png" alt="" /></span>
+									<h2>
+
+<h3>Seattle Airbnb Project</h3>
+<p>The goal of this project was to analyze Seattle's Airbnb market in order to help a client determine the best location for starting a new Airbnb business. The analysis focused on several factors, including competition, average price charged per bedroom, zip code, property type, and seasonal revenue trends.</p>
+
+<p>Airbnb, founded in 2008, is a global online marketplace for lodging, primarily homestays for vacation rentals and tourism activities. The company connects hosts offering short-term lodging with guests, allowing for flexible, often more affordable accommodations compared to traditional hotels.</p>
+
+<p>In Seattle, a major U.S. city known for its vibrant tech industry and tourism, the Airbnb market is competitive but offers potential opportunities for hosts. The aim of this analysis was to identify locations and property characteristics that yield the highest profitability, guiding the client on where to invest for the best returns.</p>
+
+<h4>Dataset Structure</h4>
+<p>The dataset used in this analysis was the Seattle Airbnb Open Data from Kaggle, which included two main tables: listings and calendar. These tables were joined using an inner join to consolidate information on property features (e.g., number of bedrooms, zip codes) and booking trends (e.g., revenue fluctuations, property availability).</p>
+
+<h4>Insights Summary</h4>
+
+<!-- Explanation Text -->
+
+<h5>Average Price Charged per Bedroom</h5>
+<p>The analysis revealed that properties with more bedrooms command higher average prices. The breakdown of average prices charged per bedroom is as follows:</p>
+<ul>
+    <li>6-bedroom properties: $661.4</li>
+    <li>5-bedroom properties: $562.7</li>
+    <li>4-bedroom properties: $334.8</li>
+    <li>3-bedroom properties: $291.5</li>
+    <li>2-bedroom properties: $200.7</li>
+    <li>1-bedroom properties: $102.4</li>
+</ul>
+
+<!-- Image of Tableau Dashboard -->
+<div class="image-wrapper">
+    <img src="images/Avg Price.PNG" alt="Average price per bedroom - Tableau Dashboard">
+</div>
+
+
+<p>This shows a clear trend where larger properties, particularly those with 5 or 6 bedrooms, have significantly higher average nightly rates compared to smaller properties, which may appeal to families or groups.</p>
+
+<!-- Explanation Text -->
+
+<h5>Average Price Charged per Zipcode</h5>
+<p>The zip code analysis identified several areas with varying price points. The highest average prices were found in zip codes:</p>
+<ul>
+    <li>98101, 98109, 98104 (central and highly sought-after areas).</li>
+</ul>
+<p>In contrast, the lowest prices were found in zip codes:</p>
+<ul>
+    <li>9833, 98106, 98117 (further from the city center and less competitive).</li>
+</ul>
+<p>Moderately priced zip codes included:</p>
+<ul>
+    <li>98122, 98107, 98144 (mixed residential and commercial areas).</li>
+</ul>
+
+<!-- Image of Tableau Dashboard -->
+<div class="image-wrapper">
+    <img src="images/Price per zipcode.PNG" alt="Price per Zipcode - Tableau Dashboard">
+</div>
+
+<p>This insight suggests that central locations or those closer to major attractions can command higher prices, but there are also opportunities in less competitive areas for budget-conscious travelers.</p>
+
+<!-- Explanation Text -->
+
+<h5>Count of Listings Based on Bedrooms</h5>
+<p>The distribution of listings based on the number of bedrooms showed a clear preference for smaller properties, with 1-bedroom listings dominating the market:</p>
+<ul>
+    <li>1-bedroom: 1,811 listings</li>
+    <li>2-bedroom: 483 listings</li>
+    <li>3-bedroom: 206 listings</li>
+    <li>4-bedroom: 55 listings</li>
+    <li>5-bedroom: 20 listings</li>
+    <li>6-bedroom: 5 listings</li>
+</ul>
+
+<!-- Image of Tableau Dashboard -->
+<div class="image-wrapper">
+    <img src="images/Count per listing.PNG" alt="Count per Listing- Tableau Dashboard">
+</div>
+
+<p>This indicates that there is a greater supply of smaller properties, and competition might be stiffer in this segment, while larger properties (4+ bedrooms) could offer unique opportunities with lower competition.</p>
+
+<!-- Explanation Text -->
+<h5>Revenues Based on Time of Year</h5>
+<p>Revenues fluctuate across the year, with some months showing stronger performance than others. The start and end of month revenue trends in millions (USD) were as follows:</p>
+<ul>
+    <li>January: $1.012M - $1.568M</li>
+    <li>February: $1.670M - $1.805M</li>
+    <li>March: $1.857M - $1.906M</li>
+    <li>April: $1.819M - $1.844M</li>
+    <li>May: $1.908M - $2.013M</li>
+    <li>June: $1.991M - $2.039M</li>
+    <li>July: $1.927M - $1.940M</li>
+    <li>August: $1.968M - $2.009M</li>
+    <li>September: $1.958M - $1.959M</li>
+    <li>October: $1.930M - $1.933M</li>
+    <li>November: $1.943M - $1.979M</li>
+    <li>December: $2.004M - $2.110M</li>
+</ul>
+
+<!-- Image of Tableau Dashboard -->
+<div class="image-wrapper">
+    <img src="images/Revenues.PNG" alt="Revenues based on time of the year- Tableau Dashboard">
+</div>
+
+<p>Revenue peaks during the summer months (June-August), and December also experiences high revenue, likely due to the holiday season. This indicates strong seasonality in the Seattle Airbnb market, with higher demand during peak travel times.</p>
+
+
+<!-- Explanation Text -->
+<h5>Impact of Property Type on Occupancy</h5>
+
+<!-- Image of Tableau Dashboard -->
+<div class="image-wrapper">
+    <img src="images/impact.PNG" alt="Impact of Property Type on Occupancy- Tableau Dashboard">
+</div>
+
+<p>The type of property also played a role in occupancy rates, though this analysis needs to be cross-referenced with deeper insights. From similar markets, larger homes and unique properties (such as luxury homes or properties with distinct architectural styles) often have higher occupancy during peak seasons, while smaller or more generic apartments may see steadier but lower occupancy year-round.</p>
+
+<h4>Recommendations</h4>
+<ul>
+    <li><strong>Focus on Larger Properties:</strong> Given that 5- and 6-bedroom properties command the highest prices but have the lowest number of listings, investing in larger properties could yield higher profits due to less competition and premium pricing.</li>
+    <li><strong>Target High-Demand Zip Codes:</strong> Zip codes 98101, 98109, and 98104 should be prioritized for new Airbnb investments as they have the highest average nightly rates and are likely closer to tourist attractions and business hubs.</li>
+    <li><strong>Capitalize on Seasonality:</strong> Revenues are highest during the summer and holiday seasons. Consider pricing strategies to maximize earnings during these peak periods while offering discounts or promotions during the slower months to maintain steady occupancy.</li>
+    <li><strong>Explore Niche Property Types:</strong> Unique properties or luxury homes could capture higher occupancy rates and pricing, especially during high-demand months. Emphasizing distinct offerings could help in differentiating from the large supply of smaller, standard listings.</li>
+</ul>
+
+<h4>Dashboard</h4>
+<p>The Tableau dashboard created for this analysis provides detailed visualizations of average price trends by bedroom and zip code, listing distributions, and revenue patterns across the year.</p>
+
+<!-- Button Link to GitHub or Tableau Public -->
+<div class="link-wrapper">
+	<a href="https://public.tableau.com/app/profile/joanne.guandaru/viz/SeattleAirbnbProject_17257139645370/Dashboard1" target="_blank" class="button">View on Tableau Public</a>
+
+									</p>
+									
+									
+								</div>
+							</section>
+
+					</div>
+
+				
+							</section>
+						</div>
+					</section>
+
+					<!--
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								
+								<li><a href="https://github.com/JoanneGuandaru" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/joanne-guandaru-366188141/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; </li><li> <a href="https://html5up.net"></a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
